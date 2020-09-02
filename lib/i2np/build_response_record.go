@@ -1,7 +1,7 @@
 package i2np
 
 import (
-	"github.com/hkparker/go-i2p/lib/common"
+	"github.com/bonedaddy/go-i2p/lib/common"
 )
 
 /*

@@ -2,8 +2,9 @@ package tunnel
 
 import (
 	"encoding/binary"
-	log "github.com/Sirupsen/logrus"
-	"github.com/hkparker/go-i2p/lib/crypto"
+
+	"github.com/bonedaddy/go-i2p/lib/crypto"
+	log "github.com/sirupsen/logrus"
 )
 
 /*

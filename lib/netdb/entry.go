@@ -1,8 +1,9 @@
 package netdb
 
 import (
-	"github.com/hkparker/go-i2p/lib/common"
 	"io"
+
+	"github.com/bonedaddy/go-i2p/lib/common"
 )
 
 // netdb entry

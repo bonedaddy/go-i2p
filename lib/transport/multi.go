@@ -1,7 +1,7 @@
 package transport
 
 import (
-	"github.com/hkparker/go-i2p/lib/common"
+	"github.com/bonedaddy/go-i2p/lib/common"
 )
 
 // muxes multiple transports into 1 Transport

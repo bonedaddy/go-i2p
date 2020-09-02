@@ -3,17 +3,18 @@ package netdb
 import (
 	"bytes"
 	"fmt"
-	log "github.com/Sirupsen/logrus"
-	"github.com/hkparker/go-i2p/lib/bootstrap"
-	"github.com/hkparker/go-i2p/lib/common"
-	"github.com/hkparker/go-i2p/lib/common/base64"
-	"github.com/hkparker/go-i2p/lib/util"
 	"io"
 	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strconv"
 	"strings"
+
+	"github.com/bonedaddy/go-i2p/lib/bootstrap"
+	"github.com/bonedaddy/go-i2p/lib/common"
+	"github.com/bonedaddy/go-i2p/lib/common/base64"
+	"github.com/bonedaddy/go-i2p/lib/util"
+	log "github.com/sirupsen/logrus"
 )
 
 // standard network database implementation using local filesystem skiplist

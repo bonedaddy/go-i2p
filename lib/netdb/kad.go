@@ -1,9 +1,10 @@
 package netdb
 
 import (
-	"github.com/hkparker/go-i2p/lib/common"
-	"github.com/hkparker/go-i2p/lib/tunnel"
 	"time"
+
+	"github.com/bonedaddy/go-i2p/lib/common"
+	"github.com/bonedaddy/go-i2p/lib/tunnel"
 )
 
 // resolves router infos with recursive kademlia lookup

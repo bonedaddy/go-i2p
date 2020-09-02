@@ -28,8 +28,9 @@ payload :: data
 
 import (
 	"errors"
-	log "github.com/Sirupsen/logrus"
-	"github.com/hkparker/go-i2p/lib/crypto"
+
+	"github.com/bonedaddy/go-i2p/lib/crypto"
+	log "github.com/sirupsen/logrus"
 )
 
 // Key Certificate Signing Key Types

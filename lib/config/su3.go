@@ -2,10 +2,11 @@ package config
 
 import (
 	"errors"
-	log "github.com/Sirupsen/logrus"
-	"github.com/hkparker/go-i2p/lib/common"
 	"strings"
 	"unicode/utf8"
+
+	"github.com/bonedaddy/go-i2p/lib/common"
+	log "github.com/sirupsen/logrus"
 )
 
 //
@@ -242,7 +243,7 @@ func getFileFormatVersion(data []byte) (int, error) {
 
 	if file_format_version_byte := data[SU3_MAGIC_BYTE_LEN+1]; file_format_version_byte != 0x00 {
 		log.WithFields(log.Fields{
-			"at": "config.getSignatureType",
+			"at":                       "config.getSignatureType",
 			"file_format_version_byte": file_format_version_byte,
 		}).Debug(ERR_SU3_FILE_FORMAT_VERSION_UNKNOWN)
 		return int(file_format_version_byte), ERR_SU3_FILE_FORMAT_VERSION_UNKNOWN

@@ -1,9 +1,10 @@
 package tunnel
 
 import (
-	"github.com/hkparker/go-i2p/lib/common"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/bonedaddy/go-i2p/lib/common"
+	"github.com/stretchr/testify/assert"
 )
 
 type DeliveryInstructionsFlags struct {

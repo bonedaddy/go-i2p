@@ -1,8 +1,9 @@
 package i2np
 
 import (
-	"github.com/hkparker/go-i2p/lib/common"
 	"time"
+
+	"github.com/bonedaddy/go-i2p/lib/common"
 )
 
 /*
